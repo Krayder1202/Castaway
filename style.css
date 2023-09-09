@@ -1,0 +1,514 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(./fonts/DMSans-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: DM Sans_Bold;
+    src: url(./fonts/DMSans_18pt-Bold.ttf);
+}
+
+body {
+    width: 1440px;
+    height: 913px;
+    top: 119px;
+    background-color: #191919;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.navigation a {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s linear
+}
+
+.navigation a:hover {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+    text-decoration: none;
+}
+
+.head1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 26px
+}
+
+.navigation {
+    width: 403px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vector1 {
+    position: relative;
+    left: -800px;
+    top: -600px;
+}
+
+.vector2 {
+    position: relative;
+    top: -217px;
+}
+
+.content-png img {
+    position: relative;
+    left: 8px;
+}
+
+.content-btn {
+    width: 530px;
+    height: 610.578125px;
+    top: 131.421875px;
+    left: 710px;
+}
+
+.content-btn h1 {
+    font-family: DM Sans;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.content-btn strong {
+    font-family: DM Sans_Bold;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.podcast-btn h6 {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.podcast-btn {
+    width: 289px;
+    height: 72px;
+    top: 516.578125px;
+    margin-left: 22px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes_head h1 {
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.episodes_head button {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    width: 178px;
+    height: 51px;
+    background-color: #118DA8;
+    border: 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.episodes_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 70px 0px 70px;
+}
+
+.episodes_info {
+    width: 1300px;
+    height: 545px;
+    top: -0.4375px;
+    border-radius: 32px;
+    background-color: black;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+
+.card_text h6 {
+    border-radius: 6px;
+    background-color: #191919;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 85%;
+}
+
+.card_text h4 {
+    width: 82px;
+    height: 27px;
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.card_text h1 {
+    width: 701px;
+    height: 141px;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.card_text p {
+    width: 757px;
+    height: 99px;
+    color: #b2b2b2;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.card_text button {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    width: 178px;
+    height: 51px;
+    background-color: #118DA8;
+    border: 0;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.card_text {
+    width: 1300px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.card {
+    margin-left: 40px;
+}
+
+.episodes_card {
+    margin: 0px 70px 0px 70px;
+}
+
+.info_body h6 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+    margin: 0;
+}
+
+.info_body button {
+    width: 112px;
+    height: 112px;
+    border-radius: 400px;
+    background-color: #118DA8;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.info_body h1 {
+    font-family: DM Sans;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.info_body p {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #b2b2b2;
+    margin-bottom: 30px;
+}
+
+.info_body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 125px 0px 70px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+
+.info_img {
+    margin-right: 70px;
+}
+
+.form {
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.form_text h6 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+
+}
+
+.form_text h1 {
+    font-family: DM Sans;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: #ffffff;
+    width: 431px;
+    height: 159px;
+}
+
+.form_button button {
+    width: 87px;
+    height: 48px;
+    font-family: DM Sans_bold;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #118DA8;
+    border: 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form_email {
+    width: 522px;
+    height: 252px;
+    top: 59.875px;
+    left: 718px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+.form_text {
+    width: 642px;
+    height: 330px;
+    top: -0.125px;
+    margin-left: 60px;
+}
+
+.form_email input {
+    width: 522px;
+    height: 82px;
+    top: 0.125px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #191919;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.feedback_block {
+    background-color: black;
+    width: 423px;
+    height: 321px;
+    top: 0.12451171875px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.feedback_block h1 {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.feedback_block h3 {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #b2b2b2;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.star {
+    margin-left: 50px;
+}
+
+.feedback {
+    margin-right: 70px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 70px;
+}
+
+.logo2 {
+    margin-bottom: 20px;
+}
+
+.navi_end a {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s linear
+}
+
+.navi_end a:hover {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+    text-decoration: none;
+}
+
+.info_end a {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s linear
+}
+
+.info_end a:hover {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+    text-decoration: none;
+}
+
+footer {
+    width: 1400px;
+    height: 438px;
+    left: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
